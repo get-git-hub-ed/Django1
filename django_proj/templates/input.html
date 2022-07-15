@@ -1,0 +1,30 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>To upload</title>
+</head>
+<body><h1>Upload a .csv file</h1>
+    <div>
+        <form action="">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+        </form>
+     </div>
+</body>
+</html>
+
+<html>
+    <head></head>
+    <body>
+    {% extends 'base.html' %}
+    {% block content %}
+    
+    <h2>Upload Your Docs</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="uploaded_file">
+        <button type="submit">Upload File</button>
+    </form>
+    {% endblock %}
+    </body>
+</html>-->
